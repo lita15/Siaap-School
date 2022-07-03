@@ -1,0 +1,91 @@
+body {
+  background-color: #f9f9f9;
+}
+
+/* CSS Header Text SIAAP*/
+body header .navbar-brand {
+  font-family: "Ruluko", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* CSS Header Detail */
+body header .navbar-nav .nav-item .nav-link {
+  font-family: Salsa;
+  font-size: 20px;
+  font-weight: 500;
+  /* color: black; */
+}
+
+/* CSS Tittle */
+.dashboard .navbar-brand-1 h4 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px !important;
+}
+
+.dashboard {
+  padding: 15px;
+  background-color: #68bbe3;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0.9;
+}
+
+main .container .col .card-dashboard {
+  background-color: #d3e0ea;
+  width: 200px !important;
+  height: 280px !important;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+main .container .card-login-as {
+  background-color: #68bbe3;
+  width: 200px !important;
+  height: 250px !important;
+}
+
+main .container .col .card-dashboard h2 {
+  margin-top: 28px;
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+main .card-dashboard:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  /* background-color: #68bbe3 !important; */
+}
+main .card-login-as:hover {
+  /* -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: yellowgreen; */
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12),
+    0 4px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  background-color: #d3e0ea;
+}
+
+footer {
+  font-family: "Ruluko", sans-serif;
+  font-size: 20px;
+  background-color: #68bbe3;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 770px) {
+  /* Footer */
+  .footer-sosmed {
+    display: none;
+  }
+}
+/*# sourceMappingURL=das_siswa.css.map */

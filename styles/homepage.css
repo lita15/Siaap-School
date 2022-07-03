@@ -1,0 +1,217 @@
+/* Body Background */
+
+body {
+  background-size: cover;
+}
+
+.konten1 {
+  background-color: #68bbe3;
+}
+
+/* Search Button */
+
+.gambar-cari {
+  width: 20px;
+  height: 20px;
+}
+
+/* Search Box */
+
+.img-fluid {
+  width: 65px;
+  height: 50px;
+  /* margin: 10px 2px 0 0; */
+}
+
+.form-inline {
+  width: 370px;
+  height: 22px;
+}
+
+/* Homepage 5 */
+
+.kata8-title {
+  /* margin: 70px 0 0px 0; */
+  font-size: 23px;
+  text-align: justify;
+  font-family: Salsa;
+}
+
+.kata8 {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Ruluko;
+  /* margin: 0px 30px 0 0px; */
+}
+
+/* Body Home page 4 */
+
+.Agenda {
+  margin: 0 0 0 0;
+  flex-grow: 0;
+  font-family: Salsa;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.Berita {
+  background-color: #68bbe3;
+}
+
+.card-date {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.card-agenda {
+  max-width: 40ch;
+}
+
+.card-info {
+  font-family: "Ruluko", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Body Homepage 3 */
+
+/* Body Homepage 2 */
+
+.img-kepsek {
+  width: 180px;
+  height: 240px;
+
+  border-radius: 11px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+.kata4 {
+  font-size: 40px;
+  font-family: Salsa;
+  margin: 50px 0 0 0px;
+  margin-left: 200px !important;
+}
+
+.kata5 pre {
+  line-height: 2;
+  font-size: 18px;
+  font-family: Ruluko;
+  margin: 20px 0 0 0px;
+}
+
+/* Body Homepage 1*/
+
+.img-sekolah {
+  width: 581px;
+  height: 600px;
+}
+
+.kata1 {
+  font-size: 25px;
+  font-family: Ruluko;
+  /* padding: 120px 50px; */
+  margin: 120px 0 0 50px;
+}
+
+.kata2 {
+  font-size: 40px;
+  font-family: Salsa;
+  margin: 0 0 0 50px;
+}
+
+.kata3 {
+  font-size: 25px;
+  font-family: Ruluko;
+
+  margin: 30px 0 0 50px;
+}
+
+body .btn-signup {
+  background-color: #003060;
+  color: #fff;
+  font-weight: 550;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+}
+body .btn-signup:hover {
+  color: #003060;
+  background-color: #fbe698;
+  font-weight: 500;
+}
+body .btn-login {
+  background-color: #fbe698 !important;
+  color: #003060;
+  font-weight: 550;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+}
+body .btn-login:hover {
+  color: #fff;
+  background-color: #003060 !important;
+  font-weight: 500;
+}
+
+/* Media Size Support */
+
+@media only screen and (max-width: 70rem) {
+  /* Search */
+  body .btn-login,
+  body .btn-signup {
+    font-size: 15px;
+  }
+  .gambar-berita {
+    display: none;
+  }
+  /* Body Home page 4 */
+  .kata8-title {
+    font-size: 20px;
+  }
+  .kata8 {
+    text-align: justify;
+    font-size: 18px;
+    font-family: Ruluko;
+  }
+  .Agenda {
+    flex-grow: 0;
+    font-family: Salsa;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  /* Homepage 4 */
+
+  /* Homepage 3 */
+
+  /* Homepage 2 */
+  .img-kepsek {
+    display: none;
+  }
+  .kata4 {
+    font-size: 10px;
+    margin: 110px 0 0 0;
+  }
+  .kata5 pre {
+    font-size: 10px;
+  }
+  /* Homepage 1 */
+  .img-sekolah {
+    display: none;
+  }
+  .kata1 {
+    margin: 60px 0 0 50px;
+  }
+  .kata2 {
+    font-size: 30px;
+  }
+  .kata3 {
+    font-size: 20px;
+  }
+
+  .d-flex {
+    font-size: 8px;
+  }
+}

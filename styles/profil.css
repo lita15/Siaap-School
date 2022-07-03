@@ -1,0 +1,30 @@
+main .image-profil:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+main .card .card-profil {
+  background-color: #f9f9f9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+main .table .true {
+  background-color: #b7e1b3;
+  border-color: #b7e1b3;
+}
+
+main .table .false {
+  background-color: #d4a59a;
+  border-color: #d4a59a;
+}
+
+main .text-opening {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-size: 28px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/*# sourceMappingURL=profil_guru.css.map */

@@ -1,0 +1,79 @@
+.box1 {
+  margin: auto;
+  width: 95%;
+  background-color: #fbe698;
+  height: max-content;
+  opacity: 0.9;
+}
+.raport {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+.box2 {
+  margin: auto;
+  border: 2px solid black;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  width: 100%;
+  background: #f6f5f5;
+}
+
+#mapel {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.kolom1 {
+  margin-top: 15px;
+}
+
+.kolom2 {
+  margin-top: -113px;
+  margin-left: 60%;
+}
+
+.tabel1 {
+  margin: auto;
+  width: 95%;
+  color: black;
+}
+
+.kel {
+  text-align: left;
+}
+
+.tabel2,
+.tabel3 {
+  width: 70%;
+}
+
+.orangtua {
+  margin-left: 35px;
+}
+
+.walikelas {
+  margin-top: -166px;
+  margin-left: 80%;
+}
+.btn-color {
+  background-color: #003060;
+  color: #ffff !important;
+  font-weight: 400;
+}
+.btn-color:hover {
+  color: #003060 !important;
+  background-color: #fbe698;
+  font-weight: 400;
+}
+
+footer .container {
+  margin-top: 150px;
+}
+
+.download a {
+  text-decoration: none;
+}

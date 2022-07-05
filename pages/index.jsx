@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../organism/footer";
+import Footer from "../organism/footer";
 import Head from "next/head";
 
 const Index = () => {

@@ -7,7 +7,7 @@ export default function index() {
   return (
     <div>
       <Header></Header>
-      <Title></Title>
+      <Title title="Siswa" />
       <main>
         <div className="container">
           {/* button close  */}

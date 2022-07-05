@@ -2,20 +2,24 @@ import React from "react";
 import Footer from "../../organism/footer";
 import Header from "../../organism/header";
 import Title from "../../organism/title";
+import Link from "next/link";
 
 export default function index() {
   return (
     <div>
       <Header></Header>
-      <Title></Title>
+      <Title title={"Administrasi"} />
       <main>
         <div className="container">
           {/* button close */}
-          <a href="dashboard-administrasi">
-            <button type="button" className="close mt-4" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </a>
+          <Link href={"/dashboard-administrasi"}>
+            <a href="">
+              <button type="button" className="close mt-4" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </a>
+          </Link>
+
           {/* end button close  */}
           <div className="row">
             <div className="col-sm">

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -16,14 +16,16 @@ export default function index() {
               <div className="title mb-3">
                 Selamat, akun anda telah terverifikasi.
               </div>
-              <a href="login-as">
-                <button
-                  type="button"
-                  className="btn btn-color py-2 px-5 mb-5  rounded-pill"
-                >
-                  Login
-                </button>
-              </a>
+              <Link href={"/login-as"}>
+                <a href="">
+                  <button
+                    type="button"
+                    className="btn btn-color py-2 px-5 mb-5  rounded-pill"
+                  >
+                    Login
+                  </button>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

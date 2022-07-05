@@ -2,12 +2,13 @@ import React from "react";
 import Header from "../../organism/header";
 import Footer from "../../organism/footer";
 import Title from "../../organism/title";
+import Link from "next/link";
 
 export default function index() {
   return (
     <div>
       <Header></Header>
-      <Title></Title>
+      <Title title={"Adminsitrasi"} />
       <main>
         <div className="container mt-3">
           <h4 className="container mt-5 mb-5 text-opening">
@@ -120,13 +121,16 @@ export default function index() {
 
           <div className="container py-5 mb-5 ">
             <div className="row container ">
-              <a
-                href="dashboard-administrasi"
-                type="submit"
-                className="btn btn-cancel px-5 rounded-pill "
-              >
-                Cancel
-              </a>
+              <Link href={"/dashboard-administrasi"}>
+                <a
+                  href=""
+                  type="submit"
+                  className="btn btn-cancel px-5 rounded-pill "
+                >
+                  Cancel
+                </a>
+              </Link>
+
               <button
                 type="submit"
                 className="btn btn-color px-5 ml-2 rounded-pill "

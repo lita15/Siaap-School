@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function header() {
   return (
@@ -53,9 +54,11 @@ export default function header() {
                   </a>
                 </li>
                 <li className="nav-item mr-5">
-                  <a className="nav-link" href="homepage">
-                    Logout
-                  </a>
+                  <Link href={"/"}>
+                    <a className="nav-link" href="">
+                      Logout
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>

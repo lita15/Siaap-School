@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../organism/header";
 import Footer from "../../organism/footer";
 import Title from "../../organism/title";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -107,13 +108,16 @@ export default function index() {
 
           <div className="container mt-5 mb-5">
             <div className="row container">
-              <a
-                href="dashboard-guru"
-                type="submit"
-                className="btn btn-cancel px-5 rounded-pill "
-              >
-                Cancel
-              </a>
+              <Link href={"/dashboard-guru"}>
+                <a
+                  href=""
+                  type="submit"
+                  className="btn btn-cancel px-5 rounded-pill "
+                >
+                  Cancel
+                </a>
+              </Link>
+
               <button
                 type="submit"
                 className="btn btn-color ml-2 px-5 rounded-pill "

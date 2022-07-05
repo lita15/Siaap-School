@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -10,15 +11,18 @@ export default function index() {
             <div className="row">
               <div className="col-md-6 offset-md-3 mt-5">
                 <div className="card my-3 p-3 slide-fwd-center card-login">
-                  <a href="homepage">
-                    <button
-                      type="button"
-                      className="close mr-3"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </a>
+                  <Link href={"/"}>
+                    <a href="">
+                      <button
+                        type="button"
+                        className="close mr-3"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </a>
+                  </Link>
+
                   <form className="card-body cardbody-color p-lg-4">
                     <div className="content">
                       <div className="text-center">
@@ -85,13 +89,15 @@ export default function index() {
                         Dengan membuat akun ini, saya setuju dengan ketentuan
                         layanan dan kebijakan privasi
                       </small>
-                      <a
-                        href="aktivasi-login"
-                        type="submit"
-                        className="btn btn-color px-5 py-2 mb-5 w-100 mt-5 rounded-pill"
-                      >
-                        Sign Up
-                      </a>
+                      <Link href={"/aktivasi-login"}>
+                        <a
+                          href=""
+                          type="submit"
+                          className="btn btn-color px-5 py-2 mb-5 w-100 mt-5 rounded-pill"
+                        >
+                          Sign Up
+                        </a>
+                      </Link>
                     </div>
                   </form>
                 </div>

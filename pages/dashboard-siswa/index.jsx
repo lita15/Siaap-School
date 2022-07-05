@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Footer from "../../organism/footer";
 import Header from "../../organism/header";
@@ -7,7 +8,7 @@ export default function index() {
   return (
     <div>
       <Header></Header>
-      <Title></Title>
+      <Title title={"Siswa"} />
       <main>
         {/* Card  */}
         <center>
@@ -15,67 +16,73 @@ export default function index() {
             <div className="row">
               <div className="col p-5">
                 <div data-aos="fade-right" data-aos-duration="1000">
-                  <a href="profil-siswa">
-                    <div className="card shadow rounded card-dashboard">
-                      <div className="card-body">
-                        <center>
-                          <img
-                            src="images/siswa.png"
-                            width="90px"
-                            height="90px"
-                            className="mt-4"
-                          />
-                        </center>
-                        <center>
-                          <h2 className="detail-card">Data Personal Siswa</h2>
-                        </center>
+                  <Link href={"/profil-siswa"}>
+                    <a href="">
+                      <div className="card shadow rounded card-dashboard">
+                        <div className="card-body">
+                          <center>
+                            <img
+                              src="images/siswa.png"
+                              width="90px"
+                              height="90px"
+                              className="mt-4"
+                            />
+                          </center>
+                          <center>
+                            <h2 className="detail-card">Data Personal Siswa</h2>
+                          </center>
+                        </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="col p-5">
                 <div data-aos="fade-right" data-aos-duration="1000">
-                  <a href="agenda">
-                    <div className="card card-dashboard shadow rounded">
-                      <div className="card-body">
-                        <center>
-                          <img
-                            src="images/list.png"
-                            width="90px"
-                            height="90px"
-                            className="mt-4"
-                          />
-                        </center>
-                        <center>
-                          <h2 className="detail-card">
-                            Agenda Pelajaran & Ekstra Rutin
-                          </h2>
-                        </center>
+                  <Link href={"/agenda"}>
+                    <a href="">
+                      <div className="card card-dashboard shadow rounded">
+                        <div className="card-body">
+                          <center>
+                            <img
+                              src="images/list.png"
+                              width="90px"
+                              height="90px"
+                              className="mt-4"
+                            />
+                          </center>
+                          <center>
+                            <h2 className="detail-card">
+                              Agenda Pelajaran & Ekstra Rutin
+                            </h2>
+                          </center>
+                        </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="col p-5">
                 <div data-aos="fade-right" data-aos-duration="1000">
-                  <a href="rapot">
-                    <div className="card card-dashboard shadow rounded">
-                      <div className="card-body">
-                        <center>
-                          <img
-                            src="images/rapor.png"
-                            width="90px"
-                            height="100px"
-                            className="mt-4"
-                          />
-                        </center>
-                        <center>
-                          <h2 className="detail-card">Rapor Siswa</h2>
-                        </center>
+                  <Link href={"/rapot"}>
+                    <a href="">
+                      <div className="card card-dashboard shadow rounded">
+                        <div className="card-body">
+                          <center>
+                            <img
+                              src="images/rapor.png"
+                              width="90px"
+                              height="100px"
+                              className="mt-4"
+                            />
+                          </center>
+                          <center>
+                            <h2 className="detail-card">Rapor Siswa</h2>
+                          </center>
+                        </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

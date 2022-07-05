@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -11,11 +12,18 @@ export default function index() {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <a href="homepage">
-                <button type="button" className="close mr-3" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </a>
+              <Link href={"/"}>
+                <a href="">
+                  <button
+                    type="button"
+                    className="close mr-3"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </a>
+              </Link>
+
               <form className="card-body  ">
                 <div className="content">
                   <div className="text-center">

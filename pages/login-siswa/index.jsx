@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../organism/footer";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -20,15 +20,18 @@ export default function index() {
               </div>
               <div className="col-md-6 offset-md-3 mt-5">
                 <div className="card card-login my-3 p-3 slide-fwd-center">
-                  <a href="login-as">
-                    <button
-                      type="button"
-                      className="close mr-3"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </a>
+                  <Link href={"/login-as"}>
+                    <a href="">
+                      <button
+                        type="button"
+                        className="close mr-3"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </a>
+                  </Link>
+
                   <form className="card-body cardbody-color p-lg-4 ">
                     <div className="content">
                       <div className="text-center">
@@ -63,23 +66,26 @@ export default function index() {
                         />
                       </div>
                       <div className="text-center">
-                        <a
-                          href="/dashboard-siswa"
-                          type="submit"
-                          className="btn btn-color px-5 py-2 mb-5 w-100 mt-4 rounded-pill"
-                        >
-                          Login
-                        </a>
+                        <Link href={"/dashboard-siswa"}>
+                          <a
+                            href=""
+                            type="submit"
+                            className="btn btn-color px-5 py-2 mb-5 w-100 mt-4 rounded-pill"
+                          >
+                            Login
+                          </a>
+                        </Link>
                       </div>
                       <small
                         id="emailHelp"
                         className="form-text text-center mb-3"
                       >
                         Not Registered?
-                        <a href="sign-up" className="fw-bold">
-                          {" "}
-                          Create an Account
-                        </a>
+                        <Link href={"/sign-up"}>
+                          <a href="" className="fw-bold">
+                            Create an Account
+                          </a>
+                        </Link>
                       </small>
                     </div>
                   </form>

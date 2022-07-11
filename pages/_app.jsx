@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       </Head>
       <Component {...pageProps} />
-      <Script src="retina-1.3.0/ "></Script>
+      {/* <Script src="retina-1.3.0/ "></Script> */}
       <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
       <script
         src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -67,8 +67,7 @@ function MyApp({ Component, pageProps }) {
         crossOrigin="anonymous"
       ></script>
       <Script src="libraries/bootstrap-4.6.1-dist/js/bootstrap.min.js"></Script>
-
-      {/* <script>AOS.init()</script> */}
+      <Script src="https://cdn.jsdelivr.net/npm/retinajs@2.1.3/dist/retina.min.js"></Script>
     </>
   );
 }
